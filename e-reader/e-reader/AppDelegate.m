@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SCSMainController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    SCSMainController *mainCOntroller = [[SCSMainController alloc] init];
+    
+    self.window.rootViewController = mainCOntroller;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

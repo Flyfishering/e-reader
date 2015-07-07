@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4C79A11B4BB868009BEA03 /* SCSMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C79A01B4BB868009BEA03 /* SCSMainController.m */; };
 		8B9486021B46CAE70088F101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486011B46CAE70088F101 /* main.m */; };
 		8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486041B46CAE70088F101 /* AppDelegate.m */; };
 		8B94860D1B46CAE70088F101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B94860C1B46CAE70088F101 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B4C799F1B4BB868009BEA03 /* SCSMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSMainController.h; sourceTree = "<group>"; };
+		8B4C79A01B4BB868009BEA03 /* SCSMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSMainController.m; sourceTree = "<group>"; };
 		8B9485FD1B46CAE70088F101 /* e-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9486011B46CAE70088F101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B9486031B46CAE70088F101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B4C799D1B4BB7CC009BEA03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B4C799E1B4BB7D3009BEA03 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B4C799F1B4BB868009BEA03 /* SCSMainController.h */,
+				8B4C79A01B4BB868009BEA03 /* SCSMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		8B9485F41B46CAE70088F101 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +105,8 @@
 		8BCB4CFF1B4AA7D8004E1659 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				8B4C799E1B4BB7D3009BEA03 /* Controller */,
+				8B4C799D1B4BB7CC009BEA03 /* View */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -153,6 +174,7 @@
 		8B9485F51B46CAE70088F101 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SCS;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = smallCobblerStudio;
 				TargetAttributes = {
@@ -197,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */,
+				8B4C79A11B4BB868009BEA03 /* SCSMainController.m in Sources */,
 				8B9486021B46CAE70088F101 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
