@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8B9486021B46CAE70088F101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486011B46CAE70088F101 /* main.m */; };
 		8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486041B46CAE70088F101 /* AppDelegate.m */; };
-		8B9486081B46CAE70088F101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486071B46CAE70088F101 /* ViewController.m */; };
-		8B94860B1B46CAE70088F101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9486091B46CAE70088F101 /* Main.storyboard */; };
 		8B94860D1B46CAE70088F101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B94860C1B46CAE70088F101 /* Assets.xcassets */; };
 		8B9486101B46CAE70088F101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B94860E1B46CAE70088F101 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,9 +18,6 @@
 		8B9486011B46CAE70088F101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B9486031B46CAE70088F101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B9486041B46CAE70088F101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B9486061B46CAE70088F101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B9486071B46CAE70088F101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8B94860A1B46CAE70088F101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B94860C1B46CAE70088F101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B94860F1B46CAE70088F101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B9486111B46CAE70088F101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,14 +53,7 @@
 		8B9485FF1B46CAE70088F101 /* e-reader */ = {
 			isa = PBXGroup;
 			children = (
-				8B9486031B46CAE70088F101 /* AppDelegate.h */,
-				8B9486041B46CAE70088F101 /* AppDelegate.m */,
-				8B9486061B46CAE70088F101 /* ViewController.h */,
-				8B9486071B46CAE70088F101 /* ViewController.m */,
-				8B9486091B46CAE70088F101 /* Main.storyboard */,
-				8B94860C1B46CAE70088F101 /* Assets.xcassets */,
-				8B94860E1B46CAE70088F101 /* LaunchScreen.storyboard */,
-				8B9486111B46CAE70088F101 /* Info.plist */,
+				8BCB4CFE1B4AA7CD004E1659 /* Classes */,
 				8B9486001B46CAE70088F101 /* Supporting Files */,
 			);
 			path = "e-reader";
@@ -74,9 +62,69 @@
 		8B9486001B46CAE70088F101 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8B94860E1B46CAE70088F101 /* LaunchScreen.storyboard */,
+				8B9486111B46CAE70088F101 /* Info.plist */,
+				8B94860C1B46CAE70088F101 /* Assets.xcassets */,
 				8B9486011B46CAE70088F101 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BCB4CFE1B4AA7CD004E1659 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB4D041B4AA82C004E1659 /* FrameWork */,
+				8BCB4D031B4AA814004E1659 /* Other */,
+				8BCB4D021B4AA805004E1659 /* Setting */,
+				8BCB4D011B4AA7FC004E1659 /* Reader-set */,
+				8BCB4D001B4AA7EC004E1659 /* Reader */,
+				8BCB4CFF1B4AA7D8004E1659 /* Main */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8BCB4CFF1B4AA7D8004E1659 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8BCB4D001B4AA7EC004E1659 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Reader;
+			sourceTree = "<group>";
+		};
+		8BCB4D011B4AA7FC004E1659 /* Reader-set */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Reader-set";
+			sourceTree = "<group>";
+		};
+		8BCB4D021B4AA805004E1659 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8BCB4D031B4AA814004E1659 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8B9486031B46CAE70088F101 /* AppDelegate.h */,
+				8B9486041B46CAE70088F101 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		8BCB4D041B4AA82C004E1659 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FrameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +186,6 @@
 			files = (
 				8B9486101B46CAE70088F101 /* LaunchScreen.storyboard in Resources */,
 				8B94860D1B46CAE70088F101 /* Assets.xcassets in Resources */,
-				8B94860B1B46CAE70088F101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B9486081B46CAE70088F101 /* ViewController.m in Sources */,
 				8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */,
 				8B9486021B46CAE70088F101 /* main.m in Sources */,
 			);
@@ -158,14 +204,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B9486091B46CAE70088F101 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B94860A1B46CAE70088F101 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B94860E1B46CAE70088F101 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -266,6 +304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "smallCobblerStudio.e-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,6 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "smallCobblerStudio.e-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +340,7 @@
 				8B9486161B46CAE70088F101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
