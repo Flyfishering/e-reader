@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SCSMainController.h"
+#import "SCSBookViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +22,11 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    SCSMainController *mainCOntroller = [[SCSMainController alloc] init];
+//    SCSMainController *mainCOntroller = [[SCSMainController alloc] init];
     
-    self.window.rootViewController = mainCOntroller;
+    SCSBookViewController *bookVc = [[SCSBookViewController alloc] init];
+    
+    self.window.rootViewController = bookVc;
     
     [self.window makeKeyAndVisible];
     
