@@ -11,5 +11,6 @@
 @interface SCSBookViewController : UIViewController
 
 @property(nonatomic,strong) NSString *bookName;
+@property(nonatomic,assign) NSInteger fontSize;
 
 @end
