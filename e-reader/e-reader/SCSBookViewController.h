@@ -12,5 +12,6 @@
 
 @property(nonatomic,strong) NSString *bookName;
 @property(nonatomic,assign) NSInteger fontSize;
+@property(nonatomic,strong) UIColor *fontColor;
 
 @end

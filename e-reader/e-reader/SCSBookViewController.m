@@ -171,7 +171,6 @@
     } else if ([touch locationInView:self.view].y > [UIScreen mainScreen].bounds.size.height / 2 - 50 && [touch locationInView:self.view].y < [UIScreen mainScreen].bounds.size.height / 2 + 50) {
         
         NSLog(@"这里需要弹出设置界面");
-        
     }
 }
 
