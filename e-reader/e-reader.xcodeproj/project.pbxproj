@@ -10,6 +10,7 @@
 		8B4C79A11B4BB868009BEA03 /* SCSMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C79A01B4BB868009BEA03 /* SCSMainController.m */; };
 		8B4C79A41B4BC261009BEA03 /* zuishuxidemoshengren.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C79A31B4BC261009BEA03 /* zuishuxidemoshengren.txt */; };
 		8B4C79A91B4BC3C7009BEA03 /* SCSBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C79A81B4BC3C7009BEA03 /* SCSBookViewController.m */; };
+		8B557A861B5CE1CD00122848 /* SCSBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B557A851B5CE1CD00122848 /* SCSBookView.m */; };
 		8B9486021B46CAE70088F101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486011B46CAE70088F101 /* main.m */; };
 		8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9486041B46CAE70088F101 /* AppDelegate.m */; };
 		8B94860D1B46CAE70088F101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B94860C1B46CAE70088F101 /* Assets.xcassets */; };
@@ -22,6 +23,8 @@
 		8B4C79A31B4BC261009BEA03 /* zuishuxidemoshengren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuishuxidemoshengren.txt; sourceTree = "<group>"; };
 		8B4C79A71B4BC3C7009BEA03 /* SCSBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSBookViewController.h; sourceTree = "<group>"; };
 		8B4C79A81B4BC3C7009BEA03 /* SCSBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSBookViewController.m; sourceTree = "<group>"; };
+		8B557A841B5CE1CD00122848 /* SCSBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSBookView.h; sourceTree = "<group>"; };
+		8B557A851B5CE1CD00122848 /* SCSBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSBookView.m; sourceTree = "<group>"; };
 		8B9485FD1B46CAE70088F101 /* e-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9486011B46CAE70088F101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B9486031B46CAE70088F101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 		8B4C79A51B4BC269009BEA03 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8B557A841B5CE1CD00122848 /* SCSBookView.h */,
+				8B557A851B5CE1CD00122848 /* SCSBookView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			files = (
 				8B9486051B46CAE70088F101 /* AppDelegate.m in Sources */,
 				8B4C79A91B4BC3C7009BEA03 /* SCSBookViewController.m in Sources */,
+				8B557A861B5CE1CD00122848 /* SCSBookView.m in Sources */,
 				8B4C79A11B4BB868009BEA03 /* SCSMainController.m in Sources */,
 				8B9486021B46CAE70088F101 /* main.m in Sources */,
 			);
